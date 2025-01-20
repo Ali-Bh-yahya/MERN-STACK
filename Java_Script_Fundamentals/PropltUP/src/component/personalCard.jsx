@@ -1,11 +1,12 @@
 import React from "react";
 
 const PersonalCard = (props) => {
+  const {firstname , lastname , age , color} = props;
   return (
     <>
-    {props.firstname} , {props.lastname}
-    <p>Age: {props.age}</p>
-    <p>Hair colore : {props.color}</p>
+    <h1>{firstname} , {lastname}</h1>
+    <p>Age: {age}</p>
+    <p>Hair colore : {color}</p>
     </>
   )
 }
