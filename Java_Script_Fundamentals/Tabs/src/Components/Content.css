@@ -1,0 +1,23 @@
+
+/* The main content area */
+.contentdiv {
+  height: 100%; /* Use full available height from the parent */
+  width: 100%; /* Full width */
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  flex-direction: column; /* Stack items vertically */
+  padding: 20px;
+  background-color: #ffffff; /* White background for content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners for the content box */
+}
+
+/* Styling for the paragraph (content text) */
+p {
+  font-size: 18px; /* Text size */
+  color: #333; /* Dark text color */
+  line-height: 1.5; /* Line height for better readability */
+  text-align: center; /* Center text inside the content box */
+  margin: 10px 0; /* Small margin to separate paragraphs */
+}

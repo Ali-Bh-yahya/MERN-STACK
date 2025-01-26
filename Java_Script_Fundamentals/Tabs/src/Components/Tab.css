@@ -1,0 +1,42 @@
+/* Ensure the header is styled properly */
+.tab-header {
+  display: flex;
+  justify-content: center; /* Center tabs horizontally */
+  align-items: center; /* Align tabs vertically */
+  background-color: #007bff; /* Header background color */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: fixed; /* Stick header to the top */
+  top: 0;
+  width: 100%; /* Full width for the header */
+  z-index: 10; /* Ensure it stays above other elements */
+}
+
+/* Add spacing below header to avoid overlap */
+.tab-content {
+  margin-top: 70px; /* Match the height of the header */
+}
+
+/* Tab button styles */
+.tab-button {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.tab-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
